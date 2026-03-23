@@ -77,8 +77,17 @@ function filterMovies() {
 
     displayMovies(filtered);
 }
+// 4. Change your iframe line to look exactly like this:
+<iframe 
+    src="https://www.youtube.com/embed/${movie.youtubeId}" 
+    title="${movie.title} Trailer" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+</iframe>
 
-// 4. Event Listeners (Triggers when you type or click)
+// 5. Event Listeners (Triggers when you type or click)
 document.getElementById('searchInput').addEventListener('input', filterMovies);
 document.getElementById('phaseFilter').addEventListener('change', filterMovies);
 
