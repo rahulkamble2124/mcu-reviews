@@ -14,47 +14,45 @@ async function loadMovies() {
 }
 
 // 2. Display function with Referrer Fix for YouTube
+let showingFavorites = false;
+
 function displayMovies(moviesToDisplay) {
     const feed = document.getElementById('movieFeed');
     feed.innerHTML = ''; 
 
-    moviesToDisplay.forEach(movie => {
-        // Check if the user has already rated this movie (stored in LocalStorage)
-        const savedRating = localStorage.getItem(`rating-${movie.title}`) || 0;
+    // Get current favorites from LocalStorage
+    const favorites = JSON.parse(localStorage.getItem('mcuFavorites')) || [];
 
+    if (moviesToDisplay.length === 0) {
+        feed.innerHTML = `<p class="no-results">${showingFavorites ? "You haven't added any favorites yet!" : "No movies found."}</p>`;
+        return;
+    }
+
+    moviesToDisplay.forEach(movie => {
+        const isFavorited = favorites.includes(movie.title);
         const post = document.createElement('div');
         post.className = 'post';
+
         post.innerHTML = `
             <div class="post-header">
-                <span class="movie-title">${movie.title}</span>
-                <span class="phase-tag">${movie.phase}</span>
+                <div>
+                    <span class="movie-title">${movie.title}</span>
+                    <span class="phase-tag">${movie.phase}</span>
+                </div>
+                <span class="fav-heart ${isFavorited ? 'active' : ''}" 
+                      onclick="toggleFavorite('${movie.title}')">
+                      ${isFavorited ? '❤️' : '🤍'}
+                </span>
             </div>
             
             <div class="video-container">
-                <iframe 
-                    src="https://www.youtube.com/embed/${movie.youtubeId}?rel=0&enablejsapi=1&origin=${window.location.origin}" 
-                    frameborder="0" allowfullscreen referrerpolicy="strict-origin-when-cross-origin">
-                </iframe>
+                <iframe src="https://www.youtube.com/embed/${movie.youtubeId}?rel=0&enablejsapi=1&origin=${window.location.origin}" 
+                        frameborder="0" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
             </div>
 
             <div class="post-content">
                 <p class="review-text">${movie.review}</p>
-                
-                <div class="rating-container">
-                    <p>Rate this Movie:</p>
-                    <div class="stars" data-movie="${movie.title}">
-                        <span class="star" onclick="setRating('${movie.title}', 5)">★</span>
-                        <span class="star" onclick="setRating('${movie.title}', 4)">★</span>
-                        <span class="star" onclick="setRating('${movie.title}', 3)">★</span>
-                        <span class="star" onclick="setRating('${movie.title}', 2)">★</span>
-                        <span class="star" onclick="setRating('${movie.title}', 1)">★</span>
-                    </div>
-                    <p class="user-rating-display" id="rating-text-${movie.title}">
-                        ${savedRating > 0 ? `You rated this: ${savedRating}/5` : 'Not rated yet'}
-                    </p>
-                </div>
-
-                <div class="action-links" style="margin-top:15px;">
+                <div class="action-links">
                     <a href="${movie.ottLink}" target="_blank" class="ott-button">Watch Now</a>
                 </div>
             </div>
@@ -63,6 +61,49 @@ function displayMovies(moviesToDisplay) {
     });
 }
 
+// Logic to Add/Remove from Favorites
+function toggleFavorite(movieTitle) {
+    let favorites = JSON.parse(localStorage.getItem('mcuFavorites')) || [];
+
+    if (favorites.includes(movieTitle)) {
+        favorites = favorites.filter(title => title !== movieTitle); // Remove
+    } else {
+        favorites.push(movieTitle); // Add
+    }
+
+    localStorage.setItem('mcuFavorites', JSON.stringify(favorites));
+    
+    // Refresh the current view
+    if (showingFavorites) {
+        showFavorites();
+    } else {
+        filterMovies(); 
+    }
+}
+
+// Logic to show ONLY favorites
+function showFavorites() {
+    const favorites = JSON.parse(localStorage.getItem('mcuFavorites')) || [];
+    const favoriteMovies = movies.filter(m => favorites.includes(m.title));
+    
+    showingFavorites = true;
+    document.getElementById('showFavoritesBtn').classList.add('active');
+    document.getElementById('showFavoritesBtn').innerText = "⬅ Show All Movies";
+    
+    displayMovies(favoriteMovies);
+}
+
+// Event Listener for the Favorites Button
+document.getElementById('showFavoritesBtn').addEventListener('click', function() {
+    if (showingFavorites) {
+        showingFavorites = false;
+        this.classList.remove('active');
+        this.innerText = "❤️ My Favorites";
+        filterMovies(); // Goes back to normal list
+    } else {
+        showFavorites();
+    }
+});
 // Function to save the rating
 function setRating(movieTitle, rating) {
     // Save to browser memory
