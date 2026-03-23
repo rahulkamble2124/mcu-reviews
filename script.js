@@ -18,16 +18,12 @@ function displayMovies(moviesToDisplay) {
     const feed = document.getElementById('movieFeed');
     feed.innerHTML = ''; 
 
-    if (moviesToDisplay.length === 0) {
-        feed.innerHTML = '<p class="no-results">No movies found. Try a different search or phase!</p>';
-        return;
-    }
-
     moviesToDisplay.forEach(movie => {
+        // Check if the user has already rated this movie (stored in LocalStorage)
+        const savedRating = localStorage.getItem(`rating-${movie.title}`) || 0;
+
         const post = document.createElement('div');
         post.className = 'post';
-
-        // FIX: Added referrerpolicy and origin to solve Error 153
         post.innerHTML = `
             <div class="post-header">
                 <span class="movie-title">${movie.title}</span>
@@ -37,27 +33,29 @@ function displayMovies(moviesToDisplay) {
             <div class="video-container">
                 <iframe 
                     src="https://www.youtube.com/embed/${movie.youtubeId}?rel=0&enablejsapi=1&origin=${window.location.origin}" 
-                    title="${movie.title} Trailer" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    referrerpolicy="strict-origin-when-cross-origin" 
-                    allowfullscreen>
+                    frameborder="0" allowfullscreen referrerpolicy="strict-origin-when-cross-origin">
                 </iframe>
             </div>
 
             <div class="post-content">
-                <div class="meta-info">
-                    <p><strong>Released (India):</strong> ${movie.releaseDate}</p>
-                    <p><strong>Starring:</strong> ${movie.actors.join(', ')}</p>
-                </div>
+                <p class="review-text">${movie.review}</p>
                 
-                <div class="review-section">
-                    <h4>Review & Analysis</h4>
-                    <p class="review-text">${movie.review}</p>
+                <div class="rating-container">
+                    <p>Rate this Movie:</p>
+                    <div class="stars" data-movie="${movie.title}">
+                        <span class="star" onclick="setRating('${movie.title}', 5)">★</span>
+                        <span class="star" onclick="setRating('${movie.title}', 4)">★</span>
+                        <span class="star" onclick="setRating('${movie.title}', 3)">★</span>
+                        <span class="star" onclick="setRating('${movie.title}', 2)">★</span>
+                        <span class="star" onclick="setRating('${movie.title}', 1)">★</span>
+                    </div>
+                    <p class="user-rating-display" id="rating-text-${movie.title}">
+                        ${savedRating > 0 ? `You rated this: ${savedRating}/5` : 'Not rated yet'}
+                    </p>
                 </div>
-                
-                <div class="action-links">
-                    <a href="${movie.ottLink}" target="_blank" class="ott-button">Watch on OTT Platform</a>
+
+                <div class="action-links" style="margin-top:15px;">
+                    <a href="${movie.ottLink}" target="_blank" class="ott-button">Watch Now</a>
                 </div>
             </div>
         `;
@@ -65,6 +63,20 @@ function displayMovies(moviesToDisplay) {
     });
 }
 
+// Function to save the rating
+function setRating(movieTitle, rating) {
+    // Save to browser memory
+    localStorage.setItem(`rating-${movieTitle}`, rating);
+    
+    // Update the text on the screen immediately
+    const textElement = document.getElementById(`rating-text-${movieTitle}`);
+    if (textElement) {
+        textElement.innerText = `You rated this: ${rating}/5`;
+        textElement.style.color = "#ffcc00"; // Glow gold when rated
+    }
+    
+    alert(`Thank you! You gave ${movieTitle} a ${rating} star rating.`);
+}
 // 3. Search and Filter Logic
 function filterMovies() {
     const searchTerm = document.getElementById('searchInput').value.toLowerCase();
