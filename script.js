@@ -4,14 +4,16 @@ let movies = [];
 async function loadMovies() {
     try {
         const response = await fetch('movies.json');
+        if (!response.ok) throw new Error('Network response was not ok');
         movies = await response.json();
         displayMovies(movies);
     } catch (error) {
         console.error("Error loading movie data:", error);
+        document.getElementById('movieFeed').innerHTML = `<p class="error-text">Failed to load movies. Please check your movies.json file syntax.</p>`;
     }
 }
 
-// 2. Display function (Creates the HTML for every movie)
+// 2. Display function with Referrer Fix for YouTube
 function displayMovies(moviesToDisplay) {
     const feed = document.getElementById('movieFeed');
     feed.innerHTML = ''; 
@@ -22,10 +24,10 @@ function displayMovies(moviesToDisplay) {
     }
 
     moviesToDisplay.forEach(movie => {
-        // Create the movie post HTML
         const post = document.createElement('div');
         post.className = 'post';
 
+        // FIX: Added referrerpolicy and origin to solve Error 153
         post.innerHTML = `
             <div class="post-header">
                 <span class="movie-title">${movie.title}</span>
@@ -34,10 +36,11 @@ function displayMovies(moviesToDisplay) {
             
             <div class="video-container">
                 <iframe 
-                    src="https://www.youtube.com/embed/${movie.youtubeId}?rel=0" 
+                    src="https://www.youtube.com/embed/${movie.youtubeId}?rel=0&enablejsapi=1&origin=${window.location.origin}" 
                     title="${movie.title} Trailer" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
                     allowfullscreen>
                 </iframe>
             </div>
@@ -77,17 +80,8 @@ function filterMovies() {
 
     displayMovies(filtered);
 }
-// 4. Change your iframe line to look exactly like this:
-<iframe 
-    src="https://www.youtube.com/embed/${movie.youtubeId}" 
-    title="${movie.title} Trailer" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen>
-</iframe>
 
-// 5. Event Listeners (Triggers when you type or click)
+// 4. Event Listeners
 document.getElementById('searchInput').addEventListener('input', filterMovies);
 document.getElementById('phaseFilter').addEventListener('change', filterMovies);
 
