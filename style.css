@@ -10,3 +10,18 @@ body { background-color: #fafafa; font-family: -apple-system, BlinkMacSystemFont
 .review-text { font-size: 14px; line-height: 1.5; }
 .feedback-section { border-top: 1px solid #efefef; padding: 10px; display: flex; }
 .feedback-section input { border: none; width: 100%; outline: none; font-size: 14px; }
+.video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; }
+.video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.ott-button {
+    display: inline-block;
+    background: #e50914; /* Netflix Red */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+}
+.ott-button:hover { background: #b20710; }
