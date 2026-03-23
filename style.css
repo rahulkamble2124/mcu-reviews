@@ -197,3 +197,36 @@ input, select {
     color: #bbb;
     margin-top: 5px;
 }
+/* Favorites Toggle Button */
+.fav-toggle-btn {
+    background: #222;
+    color: #e50914;
+    border: 1px solid #e50914;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.fav-toggle-btn.active {
+    background: #e50914;
+    color: white;
+}
+
+/* Heart Icon Styles */
+.fav-heart {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.2s, color 0.2s;
+    user-select: none;
+}
+
+.fav-heart.active {
+    color: #e50914; /* Red when favorited */
+    transform: scale(1.2);
+}
+
+.fav-heart:hover {
+    transform: scale(1.1);
+}
