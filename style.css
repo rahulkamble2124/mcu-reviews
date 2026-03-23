@@ -157,3 +157,43 @@ input, select {
     }
     body { padding-top: 130px; }
 }
+/* --- Rating System Styles --- */
+.rating-container {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #333;
+    text-align: center;
+}
+
+.stars {
+    display: inline-block;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.star {
+    color: #444; /* Default dark star */
+    transition: color 0.2s;
+}
+
+.star.active, .star:hover, .star:hover ~ .star {
+    color: #ffcc00; /* Gold color for selected stars */
+}
+
+/* This reverses the hover logic so the stars light up from left to right */
+.stars {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.star:hover,
+.star:hover ~ .star {
+    color: #ffcc00;
+}
+
+.user-rating-display {
+    font-size: 0.9rem;
+    color: #bbb;
+    margin-top: 5px;
+}
