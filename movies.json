@@ -16,5 +16,320 @@
     "actors": ["Edward Norton", "Liv Tyler"],
     "poster": "https://link-to-hulk-poster.jpg",
     "review": "Often the 'forgotten' MCU movie, The Incredible Hulk offers a darker, more brooding tone than its predecessors. Edward Norton brings a sense of desperate intellectualism to Bruce Banner. The final battle in Harlem is visceral and intense. While it lacks the humor of later films, it provides a gritty look at the burden of being a hero..."
+  },
+  {
+  "title": "Iron Man 2",
+  "releaseDate": "May 7, 2010 (India)",
+  "year": "2010",
+  "studio": "Marvel Studios",
+  "actors": ["Robert Downey Jr.", "Gwyneth Paltrow", "Don Cheadle", "Scarlett Johansson", "Mickey Rourke"],
+  "poster": "https://image.tmdb.org/t/p/original/6S6362Jeq9Y9S7REyS6HioM6vSb.jpg",
+  "review": "Iron Man 2 expands the scope of the armored hero's universe while diving deeper into Tony Stark's personal struggles. Faced with his own mortality due to palladium poisoning, Tony exhibits a reckless 'party while I can' attitude that Robert Downey Jr. plays to perfection. The introduction of Black Widow and the transition of James Rhodes into War Machine are pivotal moments that firmly establish the foundations for the Avengers. While Mickey Rourke's Whiplash provides a gritty, physical threat, the real tension comes from Tony's ego and his fight to keep his technology out of government hands. The Monaco Grand Prix action sequence remains a standout visual spectacle in early MCU history, proving that the franchise could handle larger-scale practical stunts alongside its evolving CGI."
+},
+  {
+  "title": "Thor",
+  "releaseDate": "April 29, 2011 (India)",
+  "year": "2011",
+  "studio": "Marvel Studios",
+  "actors": ["Chris Hemsworth", "Natalie Portman", "Tom Hiddleston", "Anthony Hopkins"],
+  "poster": "https://image.tmdb.org/t/p/original/prSfS6STu0vFc7uVv7ue9fv09nQ.jpg",
+  "review": "Thor successfully brings the 'Cosmic' side of Marvel to life, introducing audiences to the breathtaking gold-hued realm of Asgard. Directed by Kenneth Branagh, the film feels like a Shakespearean drama set in space, focusing on the complicated relationship between a father and his two very different sons. Chris Hemsworth instantly makes the role his own, portraying a powerful yet arrogant prince who must learn the true meaning of worthiness on Earth. However, the true star of the film is Tom Hiddleston's Loki; he isn't just a villain, but a tragic and misunderstood character whose jealousy drives the plot forward. The 'fish-out-of-water' humor in the small town of New Mexico balances the grand mythology of Asgard perfectly, making Thor a relatable hero despite his god-like powers."
+},
+  {
+  "title": "Captain America: The First Avenger",
+  "releaseDate": "July 29, 2011 (India)",
+  "year": "2011",
+  "studio": "Marvel Studios",
+  "actors": ["Chris Evans", "Hayley Atwell", "Sebastian Stan", "Hugo Weaving"],
+  "poster": "https://image.tmdb.org/t/p/original/vSNqi6STPT3pIm7zSsc36Z2wt6q.jpg",
+  "review": "Captain America: The First Avenger is a beautifully crafted period piece that brings a sense of old-school heroism to the MCU. Chris Evans delivers a sincere performance as Steve Rogers, a scrawny but courageous young man who is transformed into a super-soldier during World War II. The film excels in showing that Rogers' true strength isn't his muscles, but his unwavering moral compass and heart. The 1940s aesthetic is visually stunning, from the vintage tech to the war-torn landscapes. Hugo Weaving’s Red Skull serves as a classic, terrifying foil, while the tragic bond between Steve and Peggy Carter adds a layer of emotional depth that resonates throughout the later films. It’s a nostalgic and inspiring origin story that proves why Captain America is the soul of the Avengers."
+},
+  {
+  "title": "The Avengers",
+  "releaseDate": "April 27, 2012 (India)",
+  "year": "2012",
+  "studio": "Marvel Studios",
+  "actors": ["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo", "Chris Hemsworth", "Scarlett Johansson", "Jeremy Renner"],
+  "poster": "https://image.tmdb.org/t/p/original/RYMv7CSTicWp79AXIcR9n7K6nU.jpg",
+  "review": "The Avengers was a cinematic milestone that proved the ambitious 'shared universe' concept could actually work. Bringing together Iron Man, Captain America, Thor, and the Hulk was a massive risk that paid off with incredible chemistry and sharp dialogue. Director Joss Whedon perfectly balances each hero's screen time, allowing their clashing personalities to provide both humor and drama. The Battle of New York remains one of the most iconic action sequences in superhero history, specifically the legendary 'long take' that follows all the heroes through the city streets. Loki returns as a top-tier villain, providing a threat significant enough to force this dysfunctional team to finally assemble. It is a high-energy, colorful, and deeply satisfying payoff to Phase One that changed the landscape of Hollywood blockbusters forever."
+},
+  {
+  "title": "Iron Man 3",
+  "releaseDate": "April 26, 2013 (India)",
+  "year": "2013",
+  "studio": "Marvel Studios",
+  "actors": ["Robert Downey Jr.", "Gwyneth Paltrow", "Don Cheadle", "Ben Kingsley", "Guy Pearce"],
+  "poster": "https://image.tmdb.org/t/p/original/qhPtRUW9C7X6S39JyT70B6pXQv7.jpg",
+  "review": "Iron Man 3 takes a bold, creative turn by stripping Tony Stark of his suits and forcing him to rely on his 'mechanic' roots. Following the traumatic events of New York, Tony struggles with severe anxiety and PTSD, making him feel more human and vulnerable than ever before. Shane Black’s direction introduces a witty, detective-thriller vibe that sets it apart from previous entries. While the 'Mandarin' twist remains controversial among comic book fans, Ben Kingsley’s performance is undeniably entertaining. The film explores the idea that the man makes the suit, not the other way around, culminating in a spectacular 'House Party Protocol' finale where dozens of armors join the fight. It is a deeply personal conclusion to the Iron Man trilogy that emphasizes character growth over mere spectacle."
+},
+  {
+  "title": "Thor: The Dark World",
+  "releaseDate": "November 8, 2013 (India)",
+  "year": "2013",
+  "studio": "Marvel Studios",
+  "actors": ["Chris Hemsworth", "Natalie Portman", "Tom Hiddleston", "Anthony Hopkins", "Christopher Eccleston"],
+  "poster": "https://image.tmdb.org/t/p/original/969BmUj3pK7REyYDy6q3vfyM9xz.jpg",
+  "review": "Thor: The Dark World dives deeper into the mythology of the Nine Realms and the ancient history of Asgard. While the villain Malekith is often cited as one of the MCU’s weaker antagonists, the film shines whenever it focuses on the complex brotherly dynamic between Thor and Loki. Their forced alliance provides the movie’s best moments, blending humor, betrayal, and genuine emotion. The visual design of the Dark Elves' technology and the expansion of Asgardian lore add a gritty, high-fantasy feel to the universe. Tom Hiddleston once again steals every scene he is in, keeping the audience guessing about his true intentions until the very last frame. Despite its flaws, the film is essential for its introduction of the Reality Stone (the Aether), further building the path toward the inevitable Infinity War."
+},
+  {
+  "title": "Captain America: The Winter Soldier",
+  "releaseDate": "April 4, 2014 (India)",
+  "year": "2014",
+  "studio": "Marvel Studios",
+  "actors": ["Chris Evans", "Scarlett Johansson", "Sebastian Stan", "Anthony Mackie", "Samuel L. Jackson"],
+  "poster": "https://image.tmdb.org/t/p/original/716Y6pA67U6Yy7B99pXvNulY3Vn.jpg",
+  "review": "Widely regarded as one of the greatest superhero movies ever made, The Winter Soldier transforms the MCU into a grounded, high-stakes political thriller. The Russo Brothers introduce a visceral, tactical fighting style that completely redefines Captain America as a powerhouse combatant. The plot involves themes of surveillance, freedom, and institutional corruption, making it feel surprisingly relevant to the real world. The return of Bucky Barnes as the brainwashed Winter Soldier provides a heartbreaking personal conflict for Steve Rogers, testing his loyalty and resolve. Scarlett Johansson’s Black Widow gets her best character development yet, and the addition of Falcon brings a fresh energy to the team. From the elevator fight to the final showdown on the Helicarriers, the action is relentless, smart, and emotionally charged. It is a masterclass in genre-blending filmmaking."
+},
+  {
+  "title": "Guardians of the Galaxy",
+  "releaseDate": "August 8, 2014 (India)",
+  "year": "2014",
+  "studio": "Marvel Studios",
+  "actors": ["Chris Pratt", "Zoe Saldaña", "Dave Bautista", "Bradley Cooper", "Vin Diesel"],
+  "poster": "https://image.tmdb.org/t/p/original/r7vmzYpS926GznY97SjYvUoJBpL.jpg",
+  "review": "Guardians of the Galaxy was a massive gamble for Marvel that resulted in one of the most beloved films in the franchise. By taking the action away from Earth and into deep space, James Gunn created a vibrant, neon-soaked world filled with quirky outcasts. The chemistry between the main five—Peter Quill, Gamora, Drax, Rocket, and Groot—is the heart of the movie, turning a group of 'losers' into a family. The soundtrack, 'Awesome Mix Vol. 1,' is legendary, using 70s and 80s pop hits to ground the cosmic adventure in human emotion. It’s funny, visually spectacular, and surprisingly heartfelt, proving that audiences would fall in love with a talking raccoon and a sentient tree if the storytelling was strong enough. This film successfully expanded the MCU's scale to a galactic level."
+},
+  {
+  "title": "Avengers: Age of Ultron",
+  "releaseDate": "April 24, 2015 (India)",
+  "year": "2015",
+  "studio": "Marvel Studios",
+  "actors": ["Robert Downey Jr.", "Chris Evans", "Chris Hemsworth", "Mark Ruffalo", "Scarlett Johansson", "Elizabeth Olsen"],
+  "poster": "https://image.tmdb.org/t/p/original/4ssDsu2vuz59nk7tnuC36mg30pL.jpg",
+  "review": "The second Avengers outing is a darker, more complex sequel that explores the consequences of Tony Stark's fear. Creating Ultron—an AI meant to protect the world that decides humanity is the threat—sets up a high-stakes battle that spans the globe from South Africa to Seoul. The introduction of Wanda and Pietro Maximoff adds new power dynamics, while the birth of Vision remains one of the most awe-inspiring moments in the series. The film shines in its quieter moments, like the party scene at Avengers Tower or the stay at Hawkeye's farmhouse, which humanize these larger-than-life icons. Although it juggles many plot threads to set up future films, Age of Ultron succeeds as a philosophical action epic about the dangers of playing god and the necessity of teamwork in the face of extinction."
+},
+  {
+  "title": "Ant-Man",
+  "releaseDate": "July 24, 2015 (India)",
+  "year": "2015",
+  "studio": "Marvel Studios",
+  "actors": ["Paul Rudd", "Michael Douglas", "Evangeline Lilly", "Michael Peña"],
+  "poster": "https://image.tmdb.org/t/p/original/8Yv9p9G788oCD9uYv767v687p9S.jpg",
+  "review": "Ant-Man serves as a refreshing 'palate cleanser' after the world-ending stakes of the Avengers. Structured as a heist movie, it follows Scott Lang, a charming petty thief who must help Dr. Hank Pym protect his shrinking technology. Paul Rudd brings an effortless likability to Scott, making him one of the most relatable heroes in the MCU. The creative use of scale—turning a bathroom or a child’s playroom into an epic battlefield—provides some of the most unique action choreography in the franchise. Michael Peña’s fast-talking storytelling steals every scene he's in, adding a unique comedic flavor. While it’s a smaller-scale story, it plays a vital role in introducing the Quantum Realm, which eventually becomes the key to the entire Multiverse Saga. It’s a fun, clever, and family-oriented superhero flick."
+},
+  {
+  "title": "Captain America: Civil War",
+  "releaseDate": "May 6, 2016 (India)",
+  "year": "2016",
+  "studio": "Marvel Studios",
+  "actors": ["Chris Evans", "Robert Downey Jr.", "Scarlett Johansson", "Sebastian Stan", "Tom Holland", "Chadwick Boseman"],
+  "poster": "https://image.tmdb.org/t/p/original/rAG2uYvR7AnvKzH7C2p20uHUr97.jpg",
+  "review": "Often called 'Avengers 2.5,' Civil War is a massive emotional turning point that tears the hero community apart. The conflict over the Sokovia Accords forces every hero to choose a side between Captain America and Iron Man, leading to a deep ideological rift. The legendary Airport Battle is a masterpiece of action filmmaking, perfectly showcasing every hero's powers while introducing the MCU’s Spider-Man and Black Panther in spectacular fashion. Beyond the spectacle, the film is a tragic character study; the final showdown in Siberia is intimate and heartbreaking, as the bond between Steve and Tony is shattered by the truth of Bucky's past. It’s a dense, expertly paced thriller that proves superhero movies can handle serious political and personal consequences without losing their sense of wonder."
+},
+  {
+  "title": "Doctor Strange",
+  "releaseDate": "November 4, 2016 (India)",
+  "year": "2016",
+  "studio": "Marvel Studios",
+  "actors": ["Benedict Cumberbatch", "Chiwetel Ejiofor", "Rachel McAdams", "Benedict Wong", "Mads Mikkelsen", "Tilda Swinton"],
+  "poster": "https://image.tmdb.org/t/p/original/u997F9p9G788oCD9uYv767v687p9S.jpg",
+  "review": "Doctor Strange officially introduces magic and mysticism to the MCU with some of the most mind-bending visual effects ever put on film. Benedict Cumberbatch is perfectly cast as Stephen Strange, an arrogant neurosurgeon who loses everything in a car accident only to find a new purpose through the Mystic Arts. The 'Inception'-style city-bending sequences and the kaleidoscopic journeys through various dimensions are a visual feast. The film's climax is particularly clever, subverting the typical 'big explosion' finale for a battle of wits where Strange uses time to outsmart a cosmic entity. It marks a shift in the MCU’s tone, blending philosophical questions about time and mortality with high-octane sorcery. As Strange transitions from a man of science to the Sorcerer Supreme, the universe expands in ways that make the impossible feel real."
+},
+  {
+    "title": "Guardians of the Galaxy Vol. 2",
+    "releaseDate": "May 5, 2017 (India)",
+    "year": "2017",
+    "studio": "Marvel Studios",
+    "actors": ["Chris Pratt", "Zoe Saldaña", "Dave Bautista"],
+    "poster": "https://image.tmdb.org/t/p/original/y4MBh0mS3R0v9uVvO7u3vfvM9xz.jpg",
+    "review": "A deeply emotional sequel that focuses on the theme of 'found family' versus biological lineage. The visual effects are a psychedelic masterpiece, and the soundtrack is just as iconic as the first. Yondu’s arc provides one of the most heartbreaking moments in the entire MCU, proving that these cosmic misfits have more heart than anyone expected."
+  },
+  {
+    "title": "Spider-Man: Homecoming",
+    "releaseDate": "July 7, 2017 (India)",
+    "year": "2017",
+    "studio": "Marvel / Sony",
+    "actors": ["Tom Holland", "Michael Keaton", "Robert Downey Jr."],
+    "poster": "https://image.tmdb.org/t/p/original/c2S3vU3pMv9uVvO7u3vfvM9xz.jpg",
+    "review": "Tom Holland perfectly captures the 'Queens' energy of a teenage Peter Parker. By keeping the stakes local and grounded, the film feels like a classic John Hughes high school movie with a superhero twist. Michael Keaton’s Vulture is one of the most relatable and terrifying villains in the franchise."
+  },
+  {
+    "title": "Thor: Ragnarok",
+    "releaseDate": "November 3, 2017 (India)",
+    "year": "2017",
+    "studio": "Marvel Studios",
+    "actors": ["Chris Hemsworth", "Tom Hiddleston", "Cate Blanchett"],
+    "poster": "https://image.tmdb.org/t/p/original/rzRwTcFvHzzoVvO7u3vfvM9xz.jpg",
+    "review": "A complete reinvention of the Thor character. Director Taika Waititi injects humor, color, and an 80s synth-pop vibe that saves the Thor franchise from its previously somber tone. The chemistry between Thor and Hulk is gold, and Cate Blanchett’s Hela is a masterclass in villainy."
+  },
+  {
+    "title": "Black Panther",
+    "releaseDate": "February 16, 2018 (India)",
+    "year": "2018",
+    "studio": "Marvel Studios",
+    "actors": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o"],
+    "poster": "https://image.tmdb.org/t/p/original/uxzzNc0jZEVvO7u3vfvM9xz.jpg",
+    "review": "A cultural phenomenon. Wakanda is a technical and visual marvel, but the film’s true strength lies in Killmonger—a villain with a motivation so grounded in real-world history that you almost find yourself agreeing with him. Chadwick Boseman portrays T'Challa with a regal grace that will never be forgotten."
+  },
+  {
+    "title": "Avengers: Infinity War",
+    "releaseDate": "April 27, 2018 (India)",
+    "year": "2018",
+    "studio": "Marvel Studios",
+    "actors": ["Robert Downey Jr.", "Josh Brolin", "Chris Evans"],
+    "poster": "https://image.tmdb.org/t/p/original/7WsyChvhaY9uVvO7u3vfvM9xz.jpg",
+    "review": "The ultimate crossover event. Thanos is the protagonist of this film, and Josh Brolin’s performance makes him the most formidable threat the Avengers have ever faced. The ending remains one of the most shocking moments in cinema history, leaving audiences in India and worldwide completely speechless."
+  },
+  {
+    "title": "Ant-Man and the Wasp",
+    "releaseDate": "July 13, 2018 (India)",
+    "year": "2018",
+    "studio": "Marvel Studios",
+    "actors": ["Paul Rudd", "Evangeline Lilly"],
+    "poster": "https://image.tmdb.org/t/p/original/rvSssvVvO7u3vfvM9xz.jpg",
+    "review": "A fun, lighthearted palate cleanser after the trauma of Infinity War. The focus on the Quantum Realm and the partnership between Scott and Hope provides great action choreography. It’s a smaller story, but the post-credits scene ties it directly back into the larger stakes of the snap."
+  },
+  {
+    "title": "Captain Marvel",
+    "releaseDate": "March 8, 2019 (India)",
+    "year": "2019",
+    "studio": "Marvel Studios",
+    "actors": ["Brie Larson", "Samuel L. Jackson"],
+    "poster": "https://image.tmdb.org/t/p/original/AtsgUuVvO7u3vfvM9xz.jpg",
+    "review": "A 90s-set origin story that introduces the MCU's most powerful hero. The de-aged Samuel L. Jackson as Nick Fury is a technical triumph, and the relationship between Carol and her best friend Maria Rambeau gives the film its emotional core. It’s a solid bridge leading into the finale of the Infinity Saga."
+  },
+  {
+    "title": "Avengers: Endgame",
+    "releaseDate": "April 26, 2019 (India)",
+    "year": "2019",
+    "studio": "Marvel Studios",
+    "actors": ["Robert Downey Jr.", "Chris Evans", "Chris Hemsworth"],
+    "poster": "https://image.tmdb.org/t/p/original/or0699vO7u3vfvM9xz.jpg",
+    "review": "The end of an era. Endgame is a love letter to the fans, featuring a 'time heist' that revisits the franchise's greatest hits. The final battle is the biggest cinematic event in history, providing a perfect, tear-jerking conclusion for Tony Stark and Steve Rogers. A true masterpiece of long-form storytelling."
+  },
+  {
+    "title": "Spider-Man: Far From Home",
+    "releaseDate": "July 4, 2019 (India)",
+    "year": "2019",
+    "studio": "Marvel / Sony",
+    "actors": ["Tom Holland", "Jake Gyllenhaal", "Zendaya"],
+    "poster": "https://image.tmdb.org/t/p/original/lcq7vVvO7u3vfvM9xz.jpg",
+    "review": "Dealing with the aftermath of Tony Stark’s death, Peter Parker tries to go on a school trip but finds himself entangled with the charismatic Mysterio. The illusion sequences are mind-blowing, and the film serves as a great epilogue to Phase 3 while setting up the chaos of the multiverse."
+  },
+  {
+    "title": "Black Widow",
+    "releaseDate": "September 3, 2021 (India - OTT/Limited)",
+    "year": "2021",
+    "studio": "Marvel Studios",
+    "actors": ["Scarlett Johansson", "Florence Pugh"],
+    "poster": "https://image.tmdb.org/t/p/original/q7vVvO7u3vfvM9xz.jpg",
+    "review": "A long-overdue solo film for Natasha Romanoff. Set between Civil War and Infinity War, it explores her dark past and introduces her 'sister' Yelena Belova. Florence Pugh is the breakout star here, bringing a dry wit and physical intensity that secures her place as the new Black Widow."
+  },
+  {
+    "title": "Shang-Chi and the Legend of the Ten Rings",
+    "releaseDate": "September 3, 2021 (India)",
+    "year": "2021",
+    "studio": "Marvel Studios",
+    "actors": ["Simu Liu", "Tony Leung"],
+    "poster": "https://image.tmdb.org/t/p/original/5ssvVvO7u3vfvM9xz.jpg",
+    "review": "A breath of fresh air for the MCU. The martial arts choreography is the best in the franchise, and Tony Leung’s Wenwu is one of the most tragic and well-developed villains ever. It successfully blends traditional Chinese mythology with the modern superhero formula."
+  },
+  {
+    "title": "Eternals",
+    "releaseDate": "November 5, 2021 (India)",
+    "year": "2021",
+    "studio": "Marvel Studios",
+    "actors": ["Angelina Jolie", "Richard Madden", "Gemma Chan"],
+    "poster": "https://image.tmdb.org/t/p/original/bO7u3vfvM9xz.jpg",
+    "review": "Chloé Zhao brings a grand, cinematic, and philosophical tone to the MCU. Spanning thousands of years, the film explores what it means to be human through the eyes of immortal beings. While divisive, its stunning natural lighting and cosmic scale make it a unique visual experience."
+  },
+  {
+    "title": "Spider-Man: No Way Home",
+    "releaseDate": "December 16, 2021 (India)",
+    "year": "2021",
+    "studio": "Marvel / Sony",
+    "actors": ["Tom Holland", "Tobey Maguire", "Andrew Garfield"],
+    "poster": "https://image.tmdb.org/t/p/original/1g0vO7u3vfvM9xz.jpg",
+    "review": "The ultimate Spider-Man celebration. Bringing back villains and heroes from previous franchises was a dream come true for fans. It’s a high-stakes emotional roller coaster that ends with a heartbreaking reset for Peter Parker, returning him to his 'friendly neighborhood' roots."
+  },
+  {
+    "title": "Doctor Strange in the Multiverse of Madness",
+    "releaseDate": "May 6, 2022 (India)",
+    "year": "2022",
+    "studio": "Marvel Studios",
+    "actors": ["Benedict Cumberbatch", "Elizabeth Olsen"],
+    "poster": "https://image.tmdb.org/t/p/original/6ssvVvO7u3vfvM9xz.jpg",
+    "review": "Sam Raimi brings a horror-tinged style to the multiverse. Elizabeth Olsen’s transformation into the Scarlet Witch is terrifying and tragic. The film is a fast-paced journey through alternate realities, featuring some of the most creative magic sequences seen yet."
+  },
+  {
+    "title": "Thor: Love and Thunder",
+    "releaseDate": "July 7, 2022 (India)",
+    "year": "2022",
+    "studio": "Marvel Studios",
+    "actors": ["Chris Hemsworth", "Natalie Portman", "Christian Bale"],
+    "poster": "https://image.tmdb.org/t/p/original/4ssvVvO7u3vfvM9xz.jpg",
+    "review": "A colorful, rock-and-roll adventure that sees the return of Jane Foster as the Mighty Thor. Christian Bale’s Gorr the God Butcher is a chilling presence, though the film leans heavily into Taika Waititi’s signature comedy. It's a story about finding purpose and dealing with loss."
+  },
+  {
+    "title": "Black Panther: Wakanda Forever",
+    "releaseDate": "November 11, 2022 (India)",
+    "year": "2022",
+    "studio": "Marvel Studios",
+    "actors": ["Letitia Wright", "Tenoch Huerta"],
+    "poster": "https://image.tmdb.org/t/p/original/vVvO7u3vfvM9xz.jpg",
+    "review": "A moving tribute to Chadwick Boseman. The film handles the grief of losing a king while introducing Namor and the underwater kingdom of Talokan. Tenoch Huerta is a standout as Namor, and the film’s emotional weight makes it one of Phase 4's strongest entries."
+  },
+  {
+    "title": "Ant-Man and the Wasp: Quantumania",
+    "releaseDate": "February 17, 2023 (India)",
+    "year": "2023",
+    "studio": "Marvel Studios",
+    "actors": ["Paul Rudd", "Jonathan Majors"],
+    "poster": "https://image.tmdb.org/t/p/original/8ssvVvO7u3vfvM9xz.jpg",
+    "review": "The official start of Phase 5. This film spends most of its time in the weird and wonderful Quantum Realm. While the visuals are dense, the introduction of the council of Kangs sets the stage for the massive multiversal conflict ahead."
+  },
+  {
+    "title": "Guardians of the Galaxy Vol. 3",
+    "releaseDate": "May 5, 2023 (India)",
+    "year": "2023",
+    "studio": "Marvel Studios",
+    "actors": ["Chris Pratt", "Bradley Cooper"],
+    "poster": "https://image.tmdb.org/t/p/original/9ssvVvO7u3vfvM9xz.jpg",
+    "review": "A perfect conclusion to the Guardians trilogy. Focusing on Rocket Raccoon’s tragic origin, it’s arguably the most emotional MCU film since Endgame. It provides a satisfying ending for every team member while introducing Adam Warlock to the universe."
+  },
+  {
+    "title": "The Marvels",
+    "releaseDate": "November 10, 2023 (India)",
+    "year": "2023",
+    "studio": "Marvel Studios",
+    "actors": ["Brie Larson", "Iman Vellani", "Teyonah Parris"],
+    "poster": "https://image.tmdb.org/t/p/original/0ssvVvO7u3vfvM9xz.jpg",
+    "review": "A fast-paced, body-swapping adventure that brings together Carol Danvers, Kamala Khan, and Monica Rambeau. Iman Vellani’s Ms. Marvel is the heart of the film, and the chemistry between the three leads makes for some of the most creative action sequences in recent years."
+  },
+  {
+    "title": "Deadpool & Wolverine",
+    "releaseDate": "July 26, 2024 (India)",
+    "year": "2024",
+    "studio": "Marvel Studios",
+    "actors": ["Ryan Reynolds", "Hugh Jackman"],
+    "poster": "https://image.tmdb.org/t/p/original/87vVvO7u3vfvM9xz.jpg",
+    "review": "The first R-rated MCU film and a massive box office hit. The long-awaited team-up between Wade Wilson and Logan is filled with meta-humor, incredible cameos, and brutal action. It effectively saves the multiverse while honoring the legacy of the Fox Marvel era."
+  },
+  {
+    "title": "Captain America: Brave New World",
+    "releaseDate": "February 14, 2025 (India)",
+    "year": "2025",
+    "studio": "Marvel Studios",
+    "actors": ["Anthony Mackie", "Harrison Ford"],
+    "poster": "https://image.tmdb.org/t/p/original/2ssvVvO7u3vfvM9xz.jpg",
+    "review": "Sam Wilson officially takes the mantle of Captain America in this grounded political thriller. Facing off against a new administration and international conspiracy, Sam proves that he doesn't need super-soldier serum to lead. Harrison Ford as Thaddeus Ross adds a heavy-hitting gravitas to the political stakes."
+  },
+  {
+    "title": "Thunderbolts*",
+    "releaseDate": "May 1, 2025 (India)",
+    "year": "2025",
+    "studio": "Marvel Studios",
+    "actors": ["Florence Pugh", "Sebastian Stan", "David Harbour"],
+    "poster": "https://image.tmdb.org/t/p/original/3ssvVvO7u3vfvM9xz.jpg",
+    "review": "A gritty, anti-hero team-up featuring the MCU's reformed villains and assassins. Led by Yelena Belova and Bucky Barnes, the group is sent on a high-stakes mission that none of them were expected to survive. It’s a darker, more cynical take on the superhero team formula."
+  },
+  {
+    "title": "The Fantastic Four: First Steps",
+    "releaseDate": "July 25, 2025 (India)",
+    "year": "2025",
+    "studio": "Marvel Studios",
+    "actors": ["Pedro Pascal", "Vanessa Kirby", "Joseph Quinn", "Ebon Moss-Bachrach"],
+    "poster": "https://image.tmdb.org/t/p/original/4ssvVvO7u3vfvM9xz.jpg",
+    "review": "The long-awaited MCU debut of Marvel's First Family. Set in a retro-futuristic 1960s universe, the film captures the sense of wonder and family dynamics that made the original comics famous. It serves as a major building block for the upcoming Avengers: Doomsday."
   }
 ]
