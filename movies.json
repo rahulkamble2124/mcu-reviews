@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Iron Man",
+    "releaseDate": "May 1, 2008 (India)",
+    "year": "2008",
+    "studio": "Marvel Studios",
+    "actors": ["Robert Downey Jr.", "Gwyneth Paltrow"],
+    "poster": "https://link-to-poster-image.jpg",
+    "review": "The film that started it all. Robert Downey Jr.'s portrayal of Tony Stark is legendary, blending charisma with a grounded redemption arc. The CGI holds up remarkably well, especially the first flight sequence. This movie set the tone for the entire MCU by prioritizing character over pure spectacle. It’s a masterclass in origin storytelling that remains a top-tier Marvel entry even decades later..."
+  },
+  {
+    "title": "The Incredible Hulk",
+    "releaseDate": "June 13, 2008 (India)",
+    "year": "2008",
+    "studio": "Universal / Marvel",
+    "actors": ["Edward Norton", "Liv Tyler"],
+    "poster": "https://link-to-hulk-poster.jpg",
+    "review": "Often the 'forgotten' MCU movie, The Incredible Hulk offers a darker, more brooding tone than its predecessors. Edward Norton brings a sense of desperate intellectualism to Bruce Banner. The final battle in Harlem is visceral and intense. While it lacks the humor of later films, it provides a gritty look at the burden of being a hero..."
+  }
+]
