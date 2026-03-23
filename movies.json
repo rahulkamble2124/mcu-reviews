@@ -4,28 +4,28 @@
     "releaseDate": "May 1, 2008 (India)",
     "year": "2008",
     "studio": "Marvel Studios",
-    "actors": ["Robert Downey Jr.", "Gwyneth Paltrow"],
-    "poster": "https://link-to-poster-image.jpg",
-    "review": "The film that started it all. Robert Downey Jr.'s portrayal of Tony Stark is legendary, blending charisma with a grounded redemption arc. The CGI holds up remarkably well, especially the first flight sequence. This movie set the tone for the entire MCU by prioritizing character over pure spectacle. It’s a masterclass in origin storytelling that remains a top-tier Marvel entry even decades later..."
+    "actors": ["Robert Downey Jr.", "Terrence Howard"],
+    "poster": "https://image.tmdb.org/t/p/w500/7WsyChvhaY9uVvO7u3vfvM9xz.jpg",
+    "review": "The film that started it all. Iron Man successfully blended high-tech action with a charismatic lead performance by Robert Downey Jr. It set the tone for the entire Marvel Cinematic Universe with its perfect balance of humor and heart."
   },
   {
     "title": "The Incredible Hulk",
     "releaseDate": "June 13, 2008 (India)",
     "year": "2008",
-    "studio": "Universal / Marvel",
+    "studio": "Marvel Studios",
     "actors": ["Edward Norton", "Liv Tyler"],
-    "poster": "https://link-to-hulk-poster.jpg",
-    "review": "Often the 'forgotten' MCU movie, The Incredible Hulk offers a darker, more brooding tone than its predecessors. Edward Norton brings a sense of desperate intellectualism to Bruce Banner. The final battle in Harlem is visceral and intense. While it lacks the humor of later films, it provides a gritty look at the burden of being a hero..."
+    "poster": "https://image.tmdb.org/t/p/w500/guHL3S6V7p8m8iSMC746mX2S7v7.jpg",
+    "review": "A gritty take on the Hulk mythos. This film explored the tragic side of Bruce Banner's condition while delivering the massive destructive action fans expected. While often overlooked, it remains a key piece of the early MCU puzzle."
   },
   {
-  "title": "Iron Man 2",
-  "releaseDate": "May 7, 2010 (India)",
-  "year": "2010",
-  "studio": "Marvel Studios",
-  "actors": ["Robert Downey Jr.", "Gwyneth Paltrow", "Don Cheadle", "Scarlett Johansson", "Mickey Rourke"],
-  "poster": "https://image.tmdb.org/t/p/original/6S6362Jeq9Y9S7REyS6HioM6vSb.jpg",
-  "review": "Iron Man 2 expands the scope of the armored hero's universe while diving deeper into Tony Stark's personal struggles. Faced with his own mortality due to palladium poisoning, Tony exhibits a reckless 'party while I can' attitude that Robert Downey Jr. plays to perfection. The introduction of Black Widow and the transition of James Rhodes into War Machine are pivotal moments that firmly establish the foundations for the Avengers. While Mickey Rourke's Whiplash provides a gritty, physical threat, the real tension comes from Tony's ego and his fight to keep his technology out of government hands. The Monaco Grand Prix action sequence remains a standout visual spectacle in early MCU history, proving that the franchise could handle larger-scale practical stunts alongside its evolving CGI."
-},
+    "title": "Iron Man 2",
+    "releaseDate": "May 7, 2010 (India)",
+    "year": "2010",
+    "studio": "Marvel Studios",
+    "actors": ["Robert Downey Jr.", "Gwyneth Paltrow"],
+    "poster": "https://image.tmdb.org/t/p/w500/6S6362Jeq9Y9S7REyS6HioM6vSb.jpg",
+    "review": "Tony Stark faces his own mortality and a new rival in this high-octane sequel. Introducing Black Widow and War Machine, it expanded the universe significantly while keeping the focus on Stark's evolving ego and technology."
+  },
   {
   "title": "Thor",
   "releaseDate": "April 29, 2011 (India)",
