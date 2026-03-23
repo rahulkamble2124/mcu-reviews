@@ -140,3 +140,23 @@ document.getElementById('phaseFilter').addEventListener('change', filterMovies);
 
 // Initialize the app
 loadMovies();
+// This tells the browser: "When the user types in 'searchInput', run the filterMovies function"
+document.getElementById('searchInput').addEventListener('input', filterMovies);
+
+// Also make sure your filterMovies function looks like this:
+function filterMovies() {
+    const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+    const selectedPhase = document.getElementById('phaseFilter').value;
+
+    const filtered = movies.filter(movie => {
+        // This checks if the title OR the actors match what you typed
+        const matchesSearch = movie.title.toLowerCase().includes(searchTerm) || 
+                              movie.actors.some(a => a.toLowerCase().includes(searchTerm));
+        
+        const matchesPhase = selectedPhase === "" || movie.phase === selectedPhase;
+        
+        return matchesSearch && matchesPhase;
+    });
+
+    displayMovies(filtered);
+}
